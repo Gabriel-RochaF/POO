@@ -6,4 +6,6 @@
 [Aula 01 Dia 2026-07-22 sobre Git e Markdown](/aulas/2026-07-22-aula-01)
 
 [Aula 02 Dia 2026-07-28 atividades java](/aulas/2026-07-28-aula-02/)
+
+[Aula 03 Dia 2026-07-29 atividade java](/aulas/2026-07-29-aula-03/)
 ## Laboratórios
