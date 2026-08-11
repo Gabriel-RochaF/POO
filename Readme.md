@@ -9,5 +9,9 @@
 
 [Aula 03 Dia 2026-07-29 atividade java](/aulas/2026-07-29-aula-03/)
 
-[Aula 03 Dia 2026-07-29 sobre matrizes](/aulas/2026-08-04-aula-04/)
+[Aula 04 Dia 2026-08-04 sobre matrizes](/aulas/2026-08-04-aula-04/)
+
+[Aula 05 Dia 2026-08-05 sobre Gradle](/aulas/2026-08-05-aula-05/)
+
+[Aula 06 Dia 2026-08-11 ](/aulas/2026-08-11-aula-06/)
 ## Laboratórios
