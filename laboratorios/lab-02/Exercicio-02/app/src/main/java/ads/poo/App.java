@@ -8,6 +8,18 @@ import java.util.Random;
 public class App {
     public static void main(String[] args) {
         Random aleatorio = new Random();
-        int numero = aleatorio.nextInt()
+        int numero = aleatorio.nextInt(100) + 1;
+        int palpite = 0;
+        int tentativas = 0;
+        while (numero != palpite){
+            palpite = Integer.parseInt(IO.readln("Entre com um numero de 1-100: "));
+            tentativas ++;
+            if (numero > palpite){
+                IO.println("O número é maior. Tente novamente");
+            } else {
+                IO.println("O número é menor. Tente novamente");
+            }
+        }
+        IO.println(String.format("Parabéns,você acertou em %d tentativas!", tentativas));
     }
 }
