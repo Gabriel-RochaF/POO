@@ -1,0 +1,15 @@
+Mouse:
+   atributos:
+   	- modelo
+   	- DPI
+   métodos:
+   	- click esquerdo
+   	- click direito
+   	- deslizar
+Lampada:
+   atributos:
+   	- cor
+   	- força
+   métodos:
+   	- ligar
+   	- desligar

@@ -13,5 +13,9 @@
 
 [Aula 05 Dia 2026-08-05 sobre Gradle](/aulas/2026-08-05-aula-05/)
 
-[Aula 06 Dia 2026-08-11 ](/aulas/2026-08-11-aula-06/)
+[Aula 06 Dia 2026-08-11 sobre argumentos](/aulas/2026-08-11-aula-06/)
+
+[Aula 07 Dia 2026-08-18 sobre objetos](aulas/2026-08-18-aula-07)
+
 ## Laboratórios
+[Laboratorio 2](/laboratorios/lab-02)

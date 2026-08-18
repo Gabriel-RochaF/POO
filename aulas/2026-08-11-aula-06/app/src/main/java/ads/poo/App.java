@@ -1,11 +1,7 @@
 package ads.poo;
 
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
-
-    public static void main(String[] args) {
+      public static void main(String[] args) {
         String nome = IO.readln("Entre com seu nome: ");
 
         IO.println("Olá " + nome);

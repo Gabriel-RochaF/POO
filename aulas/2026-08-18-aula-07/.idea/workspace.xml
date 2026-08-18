@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="289bb1fb-56e5-47f5-aa19-5f225099ebcc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../2026-08-11-aula-6/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/../2026-08-11-aula-06/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2026-08-11-aula-6/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../2026-08-11-aula-06/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2026-08-11-aula-6/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../2026-08-11-aula-06/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2026-08-11-aula-6/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2026-08-11-aula-06/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2026-08-11-aula-6/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2026-08-11-aula-06/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2026-08-11-aula-6/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2026-08-11-aula-06/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2026-08-11-aula-6/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2026-08-11-aula-06/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2026-08-11-aula-6/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../2026-08-11-aula-06/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2026-08-11-aula-6/app/src/main/java/ads/poo/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2026-08-11-aula-06/app/src/main/java/ads/poo/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2026-08-11-aula-6/app/src/test/java/ads/poo/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2026-08-11-aula-06/app/src/test/java/ads/poo/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2026-08-11-aula-6/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../2026-08-11-aula-06/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2026-08-11-aula-6/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../2026-08-11-aula-06/gradle/libs.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2026-08-11-aula-6/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../2026-08-11-aula-06/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2026-08-11-aula-6/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../2026-08-11-aula-06/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2026-08-11-aula-6/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../2026-08-11-aula-06/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2026-08-11-aula-6/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../2026-08-11-aula-06/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2026-08-11-aula-6/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../2026-08-11-aula-06/settings.gradle.kts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="$USER_HOME$/.gradle/wrapper/dists/gradle-9.2.1-bin/2t0n5ozlw9xmuyvbp7dnzaxug/gradle-9.2.1" javaHome="/usr/java/jdk-25-oracle-x64" gradleVersion="9.2.1" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="3I6dvca8oxEDTBp178Uot14n2wy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Gradle.Build 2026-08-18-aula-07.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/aluno/POO/aulas/2026-08-18-aula-07/atividade1"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="289bb1fb-56e5-47f5-aa19-5f225099ebcc" name="Changes" comment="" />
+      <created>1787089192675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1787089192675</updated>
+    </task>
+    <servers />
+  </component>
+</project>

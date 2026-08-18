@@ -1,0 +1,14 @@
+atributos carro para revenda:
+	- motor
+	- marca
+	- consumo
+	- modelo
+	- preço
+	- kilometragem
+	- condição
+	
+atributos carro para um jogo:
+	- velocidade
+	- aceleração
+	- direção
+	- sentido
