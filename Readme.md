@@ -17,5 +17,15 @@
 
 [Aula 07 Dia 2026-08-18 sobre objetos](aulas/2026-08-18-aula-07)
 
+[Aula 08 Dia 19-08-2026](aulas/2026-08-19-aula-08)
+
+[Aula 09 Dia 25-08-2026](aulas/2026-08-25-aula-09)
+
+[Aula 10 Dia 26-08-2026](aulas/2026-08-26-aula-10)
+
+[Aula 11 Dia 15-09-2026](aulas/2026-09-15-aula-11)
+
 ## Laboratórios
 [Laboratorio 2](/laboratorios/lab-02)
+
+[Laboratorio 3](/laboratorios/lab-03)
