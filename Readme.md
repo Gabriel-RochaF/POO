@@ -25,7 +25,11 @@
 
 [Aula 11 Dia 15-09-2026](aulas/2026-09-15-aula-11)
 
+[Aula 12 Dia 16-09-2026](aulas/2026-09-16-aula-12)
+
 ## Laboratórios
 [Laboratorio 2](/laboratorios/lab-02)
 
 [Laboratorio 3](/laboratorios/lab-03)
+
+[Laboratorio 4](/laboratorios/lab-04)
