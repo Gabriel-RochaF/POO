@@ -9,8 +9,8 @@ public class Carro {
         this.propulsor = propulsor;
     }
 
-    public void acelerar(int valor){
-        this.propulsor.acelerar(valor);
+    public void acelerar(int v){
+        this.propulsor.acelerar(v);
     }
 
     public void trocarMotor(Motor mo){
