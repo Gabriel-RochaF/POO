@@ -13,28 +13,20 @@ public class Aviao {
         this.maxTripulantes = maxTripulantes;
         this.maxPassageiros = maxPassageiros;
         this.capCombustivel = capCombustivel;
+        this.ligado = false;
         for (int i = 0; i < numeroMotores; i++) {
             motores.add(new Motor(tipoMotores));
         }
     }
-    public void ligarAviao(){
-        ligado = true;
-        for (Motor motor : motores){
-            motor.ligarMotor();
+    public void ligarDesligarAviao(){
+        this.ligado = !this.ligado;
+        for (Motor motor : motores) {
+            motor.ligarDesligarMotor();
         }
     }
-    public void desligarAviao(){
-        ligado = false;
-        for (Motor motor : motores){
-            motor.desligarMotor();
-        }
-    }
-    public void ligarMotor(int i){
+
+    public void ligarDesligarMotor(int i){
         Motor motor = motores.get(i);
-        motor.ligarMotor();
-    }
-    public void desligarMotor(int i){
-        Motor motor = motores.get(i);
-        motor.desligarMotor();
+        motor.ligarDesligarMotor();
     }
 }

@@ -9,11 +9,7 @@ public class Motor {
         this.ligado = false;
     }
 
-    public void ligarMotor(){
-        this.ligado = true;
-    }
-
-    public void desligarMotor(){
-        this.ligado = false;
+    public void ligarDesligarMotor(){
+        this.ligado = !this.ligado;
     }
 }

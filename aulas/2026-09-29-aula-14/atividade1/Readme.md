@@ -12,16 +12,13 @@ classDiagram
         -ligado: boolean
         -motores: Arraylist~Motor~
         +Aviao(mt: int, mp:int, cc: double, numeroMotores: int, tipoMotores: String)
-        +ligarAviao()void
-        +desligarAviao()void
-        +ligarMotor(motor: int)void
-        +desligarMotor(motor: int)void
+        +ligarDesligarAviao()void
+        +ligarDesligarMotor(i: int)void
     }
     class Motor{
         -tipo: String
         -ligado: boolean
         +Motor(tipo: String)
-        +ligarMotor()void
-        +desligarMotor()void
+        +ligarDesligarMotor()void
     }
 ```
