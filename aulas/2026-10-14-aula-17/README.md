@@ -1,13 +1,27 @@
 ```mermaid
 classDiagram
     class Veiculo {
-        -velocidade
+        - velocidadeAtual : int
+        + acelerar(v:int) void
+        + desacelerar(v:int) void
     }
-    class Terrestre 
-    class Caminhao
-    class Carro
-    class Aviao
-    class Barco
+    class Terrestre {
+        - aderencia
+    }
+    class Caminhao {
+        - basculanteAberta : boolean
+    }
+    class Carro {
+        - tipo : String 
+    }
+    class Aviao {
+        - tipoDoMotor : String
+        + ativarFlap(nivel: int) void
+    }
+    class Barco {
+        - ancora : boolean
+        + lancarAncora() boolean
+    }
     Veiculo <|-- Terrestre
     Terrestre <|-- Carro
     Terrestre <|-- Caminhao
