@@ -1,26 +1,36 @@
 ```mermaid
 classDiagram
     class FormasGeometricas {
-        - cor : String
-        - pontoInicial[ ] : int
-        - pontoFinal[ ] : int
+        # cor : String
+        - pontoInicial: Ponto
         + desenhar() String
     }
-    class Linha 
-    class Fechadas {
-        + calcularArea() : double
-        + calcularPerimetro() : double
+    class Linha {
+        - pontoFinal : Ponto
+    }
+    class FormaPlana {
+        + calcularArea() double
+        + calcularPerimetro() double
     }
     class Circulo {
         - raio : double
         - calcularRaio() double
     }
-    class Retângulo
-    
+    class Retangulo {
+        
+        - pontoFinal : Ponto
+    }
+    class Ponto {
+        + x : int
+        + y : int
+    }
     FormasGeometricas <|-- Linha
-    FormasGeometricas <|-- Fechadas
-    Fechadas <|-- Circulo
-    Fechadas <|-- Retângulo
+    FormasGeometricas <|-- FormaPlana
+    FormaPlana <|-- Circulo
+    FormaPlana <|-- Retangulo
+    FormasGeometricas *-- Ponto
+    Linha *-- Ponto
+    Retangulo *-- Ponto
 ```
 ```mermaid
 classDiagram
