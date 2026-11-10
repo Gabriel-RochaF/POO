@@ -31,5 +31,6 @@ public class App {
         IO.println(linha.desenhar());
         IO.println(retangulo.desenhar());
         IO.println(circulo.desenhar());
+
     }
 }

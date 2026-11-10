@@ -1,6 +1,6 @@
 package ads.poo.personagens;
 
-public class Personagem {
+public abstract class Personagem {
     protected int vida;
     protected int ataque;
     protected double velocidade;
@@ -11,11 +11,5 @@ public class Personagem {
         this.velocidade = velocidade;
     }
 
-    public String movimentar() {
-        return "O personagem se movimentou com velocidade " + velocidade;
-    }
-
-    public String atacar() {
-        return "O personagem atacou com força " + ataque;
-    }
+    public abstract String movimentar();
 }
