@@ -7,7 +7,7 @@ public class Arara extends Animal implements Voador{
 
     @Override
     public String toString() {
-        return nome + "é uma arara";
+        return nome + " é uma arara";
     }
 
     @Override
