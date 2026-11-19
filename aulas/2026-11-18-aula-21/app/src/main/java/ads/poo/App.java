@@ -10,20 +10,28 @@ import java.util.ArrayList;
 
 public class App {
     public static void main(String[] args) {
-        ArrayList<Carta> baralho = new ArrayList<>();
-
-        for (Naipe n : Naipe.values()){
-            for (Valor v : Valor.values()){
-                baralho.add(new Carta(n,v));
-            }
-        }
+        ArrayList<CartaGrafica> baralho = new ArrayList<>();
 
         Draw draw = new Draw();
         draw.setCanvasSize(800,800);
         draw.setXscale(0,800);
         draw.setYscale(0,800);
 
-        CartaGrafica c = new CartaGrafica(Naipe.COPAS,Valor.TRES, 400,400);
-        c.desenhar(draw);
+        double x = 36;
+        double y = 800 - 48;
+        for (Naipe n : Naipe.values()){
+            for (Valor v : Valor.values()){
+                baralho.add(new CartaGrafica(n,v,x,y,false));
+                x += 60.7;
+
+            }
+            y -= 96;
+            x = 36;
+        }
+
+        for (CartaGrafica c : baralho){
+            c.desenhar(draw);
+        }
+
     }
 }

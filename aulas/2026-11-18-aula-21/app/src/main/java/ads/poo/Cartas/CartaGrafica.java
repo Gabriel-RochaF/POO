@@ -5,15 +5,31 @@ import edu.princeton.cs.algs4.Draw;
 public class CartaGrafica extends Carta {
     private double CoordenadaX;
     private double CoordenadaY;
+    private Boolean virada;
 
-    public CartaGrafica(Naipe naipe, Valor valor, double coordenadaY, double coordenadaX) {
+    public CartaGrafica(Naipe naipe, Valor valor, double coordenadaX, double coordenadaY, Boolean virada) {
         super(naipe, valor);
-        CoordenadaY = coordenadaY;
-        CoordenadaX = coordenadaX;
+        this.CoordenadaX = coordenadaX;
+        this.CoordenadaY = coordenadaY;
+        this.virada = virada;
     }
 
     public void desenhar(Draw draw){
-        draw.picture(this.CoordenadaX,this.CoordenadaY, "cartas/" + this.nomeImagem());
+        String imagem = "cartas/" ;
+
+        if (virada){
+            switch (naipe){
+                case PAUS,ESPADAS -> imagem += "fundoa.png";
+                case COPAS,OUROS -> imagem += "fundov.png";
+            }
+        } else {
+            imagem += this.nomeImagem();
+        }
+        draw.picture(this.CoordenadaX,this.CoordenadaY, imagem);
+    }
+
+    public void virar(){
+        virada = !virada;
     }
 
     public String nomeImagem(){
