@@ -22,4 +22,8 @@ public class Emprestimo {
     public Boolean getAtivo() {
         return ativo;
     }
+
+    public void desativarEmprestimo(){
+        ativo = false;
+    }
 }
